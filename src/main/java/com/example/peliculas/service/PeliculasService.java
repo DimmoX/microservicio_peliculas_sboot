@@ -13,5 +13,7 @@ public interface PeliculasService{
 
     PeliculasModel createPelicula(PeliculasModel pelicula);
 
+    PeliculasModel updatePelicula(Long id, PeliculasModel pelicula);
+
     void deletePelicula(Long id);
 } 
